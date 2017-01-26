@@ -1,0 +1,3 @@
+<nav class="mdl-navigation style-guide-navigation">
+    <a class="mdl-navigation__link is-active" *ngFor="let menuItem of menuItems;" [routerLink]="[menuItem.route]">{{menuItem.name}}</a>
+</nav>

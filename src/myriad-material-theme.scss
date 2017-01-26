@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    $CONTENTS
+\*------------------------------------*/
+
+//the following are overriding variables
+$preferred_font: 'Noto','Helvetica','Arial', sans-serif;
+$performance_font: 'Helvetica','Arial',sans-serif;
+
+$palette-myriad-blue:
+"225,245,254"
+"179,229,252"
+"129,212,250"
+"79,195,247"
+"41,182,246"
+"3,169,244"
+"3,155,229"
+"2,136,209"
+"2,119,189"
+"1,87,155"
+"128,216,255"
+"64,196,255"
+"0,176,255"
+"0,145,234";
+
+$palette-myriad-blue-50: nth($palette-myriad-blue, 1);
+$palette-myriad-blue-100: nth($palette-myriad-blue, 2);
+$palette-myriad-blue-200: nth($palette-myriad-blue, 3);
+$palette-myriad-blue-300: nth($palette-myriad-blue, 4);
+$palette-myriad-blue-400: nth($palette-myriad-blue, 5);
+$palette-myriad-blue-500: nth($palette-myriad-blue, 6);
+$palette-myriad-blue-600: nth($palette-myriad-blue, 7);
+$palette-myriad-blue-700: nth($palette-myriad-blue, 8);
+$palette-myriad-blue-800: nth($palette-myriad-blue, 9);
+$palette-myriad-blue-900: nth($palette-myriad-blue, 10);
+$palette-myriad-blue-A100: nth($palette-myriad-blue, 11);
+$palette-myriad-blue-A200: nth($palette-myriad-blue, 12);
+$palette-myriad-blue-A400: nth($palette-myriad-blue, 13);
+$palette-myriad-blue-A700: nth($palette-myriad-blue, 14);
+
+
+// Use color primarily for emphasis. Choose colors that fit with
+// your brand and provide good contrast between visual components.
+$color-primary: $palette-myriad-blue-500;
+$color-primary-dark: $palette-myriad-blue-900;
+$color-accent: $palette-myriad-blue-900;
+
+// Our primary is dark, so use $color-dark-contrast for overlaid text.
+$color-primary-contrast: "255,255,255";
+// Our accent is dark, so use $color-dark-contrast for overlaid text.
+$color-accent-contrast: "255,255,255";
+
+@import '../node_modules/bootstrap-material-design/sass/bootstrap-material-design'

@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<app-header></app-header>
+<div id="page-container" class="mdl-layout__container">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <router-outlet></router-outlet>
+            </div>
+        </main>
+    </div>
+</div><!-- /.mdl-layout__container -->
